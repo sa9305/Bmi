@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".contact_me">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please click On Below Button....."
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_action_view"
+        android:text="action view"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:background="@drawable/custom_btn_bg" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:id="@+id/btn_action_dial"
+        android:layout_marginTop="40dp"
+        android:text="action Dial"
+        android:layout_marginEnd="20dp"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_btn_bg" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_action_call"
+        android:layout_marginStart="0dp"
+        android:text="action call"
+        android:layout_marginEnd="20dp"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_btn_bg" />
+
+
+</LinearLayout>
